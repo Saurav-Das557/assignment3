@@ -103,7 +103,7 @@
           </div>
           <ul
             tabindex="0"
-            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-full p-2 shadow overflow-x-hidden"> <!-- Added overflow-x-hidden -->
+            class="menu menu-max-[400px] dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-full p-2 shadow overflow-x-hidden"> <!-- Added overflow-x-hidden -->
             <li><a class="font-bold">Home</a></li>
             <li><a>Services</a></li>
             <li><a>Portfolio</a></li>
@@ -116,9 +116,9 @@
     </div>
     <!--* Banner section start -->
     <div class="flex flex-col justify-center items-center text-center">
-      <img class="sm: w-2/3" src="assets/banner.png" alt="">
+      <img class="max-[400px]: w-2/3" src="assets/banner.png" alt="">
 
-      <h1 class="text-xl font-bold sm:text-3xl lg:text-5xl  mb-5">A barn house of this design has a <br>striking appearance</h1>
+      <h1 class="text-xl font-bold max-[400px]:text-3xl lg:text-5xl  mb-5">A barn house of this design has a <br>striking appearance</h1>
         
       <p class="text-black w-[400px] lg:w-1/2 xl:w-2/3 my-5">The barn house captivates with its blend of rustic charm and modern 
         sophistication, featuring weathered wood, sleek metal 
@@ -139,18 +139,17 @@
   </header>
   <main class=" ">
     
-  
-
   <!-- *********************** HEADER SECTION END **********************-->
 
 
   <!-- *********************** ABOUT US SECTION START **********************-->
+
   <!-- *********************** ABOUT US SECTION END **********************-->
 
   <!-- *********************** OUR WORK PROCESS SECTION START **********************-->
 
 
-    <section class="mt-20 container mx-auto items-center justify-center">
+    <section class="mt-20 container mx-auto items-center justify-center mb-10">
       <div class="container mx-auto text-center">
         <button class="btn rounded-full bg-slate-50"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
           <path fill-rule="evenodd" d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
@@ -161,7 +160,7 @@
       </div>
 
         <!-- **Cards start-->
-      <div class="flex items-center max-sm:flex-col  gap-9 mt-10 ">
+      <div class="flex justify-center max-[400px]:flex-col max-[400px]:items-center gap-9 mt-10 mb-10 ">
 
         <div class="bg-[#E7C1D3] max-[400px]:w-11/12 w-60 h-52 rounded-lg">
           <div class="pl-5 mt-5">
@@ -201,23 +200,107 @@
       </div>
     
      <!-- **Cards end-->
-
-    
     </section>
-    
-    
   
-      
-   
-    
-    
    <!-- *********************** OUR WORK PROCESS SECTION END**********************-->
+
+
+
+
+
+
 
    <!-- *********************** OUR LATEST PORTFOLIO SECTION START **********************-->
   <!-- *********************** OUR LATEST PORTFOLIO SECTION END **********************-->
 
 
   <!-- *********************** MY UNIQUE SECTION START **********************-->
+  <section class="mt-10">
+    <div class="container mx-auto text-center font-bold text-2xl mb-2 lg:text-5xl lg:mb-10">
+      <h1>What is UNIQUE about us </h1>
+    </div>
+    <div class="container mx-auto flex justify-center">
+      <div class="carousel relative w-[70vw] h-[70vh] max-[400px]:w-[90vw] max-[400px]:h-[51vw]">
+        <!-- Slide 1 -->
+        <div id="slide1" class="carousel-item relative w-full h-full">
+          <video controls autoplay muted class="w-full h-full object-cover">
+            <source src="assets/video1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <div class="absolute inset-0 flex items-center justify-center text-center text-white bg-black bg-opacity-50">
+            <p class="text-4xl font-extrabold max-[400px]:text-2xl">A Vision of Modern Living</p>
+          </div>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide5" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        
+        <!-- Slide 2 -->
+        <div id="slide2" class="carousel-item relative w-full h-full">
+          <video controls autoplay muted class="w-full h-full object-cover">
+            <source src="assets/video2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <div class="absolute inset-0 flex items-center justify-center text-center text-white bg-black bg-opacity-50">
+            <p class="text-4xl font-extrabold max-[400px]:text-2xl">Where Dreams Become Reality</p>
+          </div>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a>
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        
+        <!-- Slide 3 -->
+        <div id="slide3" class="carousel-item relative w-full h-full">
+          <video controls autoplay muted class="w-full h-full object-cover">
+            <source src="assets/video3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <div class="absolute inset-0 flex items-center justify-center text-center text-white bg-black bg-opacity-50">
+            <p class="text-4xl font-extrabold max-[400px]:text-2xl">Experience the Future of Home Design</p>
+          </div>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a>
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        
+        <!-- Slide 4 -->
+        <div id="slide4" class="carousel-item relative w-full h-full">
+          <video controls autoplay muted class="w-full h-full object-cover">
+            <source src="assets/video4.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <div class="absolute inset-0 flex items-center justify-center text-center text-white bg-black bg-opacity-50">
+            <p class="text-4xl font-extrabold max-[400px]:text-2xl">Crafted with Precision, Designed for Comfort</p>
+          </div>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle">❮</a>
+            <a href="#slide5" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        
+        <!-- Slide 5 -->
+        <div id="slide5" class="carousel-item relative w-full h-full">
+          <video controls autoplay muted class="w-full h-full object-cover">
+            <source src="assets/video5.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <div class="absolute inset-0 flex items-center justify-center text-center text-white bg-black bg-opacity-50">
+            <p class="text-4xl font-extrabold max-[400px]:text-2xl">Designed for Life</p>
+          </div>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a>
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  
   
 
 
