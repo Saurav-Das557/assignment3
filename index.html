@@ -305,12 +305,12 @@
           <img src="assets/img2.png" alt="Image 2" class="w-full h-full object-cover">
         </div>
       </div>
-  
-      <div class="grid grid-cols-1 gap-4 lg:grid-cols-4 lg:gap-8">
-        <div class="h-auto border-2 p-5 shadow-md rounded-lg">
-          <img src="assets/img3.png" alt="Image 3" class="w-full h-full object-cover rounded-lg">
-        </div>
-        <div class="h-auto flex flex-col lg:flex-row lg:col-span-2 border-2 p-5 shadow-md rounded-lg">
+      <!-- for mobile  -->
+      <div class="h-auto bg-white border-2 p-5 shadow-md rounded-lg lg:hidden">
+        <img src="assets/img5.png" alt="Image 5" class="w-full h-full object-cover rounded-lg">
+      </div>
+        <!-- for mobile  -->
+        <div class="h-auto flex flex-col lg:flex-row lg:col-span-2 border-2 p-5 shadow-md rounded-lg lg:hidden mt-5">
           <div class="w-full lg:w-1/2 h-auto rounded-lg overflow-hidden">
             <img src="assets/img4.png" alt="Image 4" class="w-full h-full object-cover rounded-lg">
           </div>
@@ -327,6 +327,31 @@
             </a>
           </div>
         </div>
+         <!-- for mobile  -->
+         
+         <!-- for mobile  -->
+      <div class="grid grid-cols-1 gap-4 lg:grid-cols-4 lg:gap-8">
+        <div class="h-auto border-2 p-5 shadow-md rounded-lg">
+          <img src="assets/img3.png" alt="Image 3" class="w-full h-full object-cover rounded-lg">
+        </div>
+        <div class="h-auto flex flex-col lg:flex-row lg:col-span-2 border-2 p-5 shadow-md rounded-lg hidden lg:flex">
+          <div class="w-full lg:w-1/2 h-auto rounded-lg overflow-hidden">
+            <img src="assets/img4.png" alt="Image 4" class="w-full h-full object-cover rounded-lg">
+          </div>
+          <div class="px-4 py-2 flex flex-col justify-center gap-y-2">
+            <h3 class="text-base md:text-lg font-bold">Commercial</h3>
+            <p class="text-xs md:text-sm">
+              The barn house captivates with its blend of rustic charm<br>and modern. The barn house captivates with its blend of rustic charm and modern.
+            </p>
+            <a class="font-bold inline-flex items-center mt-2 text-sm md:text-base" href="">
+              View Details
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 md:w-6 md:h-6 rotate-180 ml-2 border-2 md:border-4 rounded-full border-green-400">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 4.5-15 15m0 0h11.25m-11.25 0V8.25" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        
         <div class="h-auto bg-white border-2 p-5 shadow-md rounded-lg">
           <img src="assets/img5.png" alt="Image 5" class="w-full h-full object-cover rounded-lg">
         </div>
